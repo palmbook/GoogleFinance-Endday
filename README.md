@@ -26,24 +26,23 @@ INSTALLATION GUIDE
 
 FOR WINDOWS
 
-1. Download Python 2.7 from https://www.python.org/downloads/windows/
-    Note: This code has not been tested with Python 3. 
-          Use it at your own risk.
+(1) Download Python 2.7 from https://www.python.org/downloads/windows/
+Note: This code has not been tested with Python 3. Use it at your own risk.
 
-2. Install Python 2.7 Package. Do not check "pip" module out.
+(2) Install Python 2.7 Package. Do not check "pip" module out.
 
-3. Open up Command-Prompt. Go to your Python directory and install bs4
-   html5lib
+(3) Open up Command-Prompt. Go to your Python directory and install bs4 and
+html5lib
 
-   Assuming you use default directory, your commands will look like:
+Assuming you use default directory, your commands will look like:
 
-   cd C:\Python27
-   python -m pip install bs4
-   python -m pip install html5lib
+    cd C:\Python27
+    python -m pip install bs4
+    python -m pip install html5lib
 
-4. Open Python 2.7 > IDLE (Python GUI)
+(4) Open Python 2.7 > IDLE (Python GUI)
 
-5. Load GoogleFinanceEndDay.py and run the code by pressing F5
+(5) Load GoogleFinanceEndDay.py and run the code by pressing F5
 
 ------------------------------------------------------------------------
 

@@ -155,9 +155,9 @@ def parseHistoricalPrice(html, symbol):
         log('ERROR', 'Unexpected situation: require 10 scripts!')
         return []
 
-    # It is generally the 9th script
+    # It is generally the 10th script
     try:
-        page = str(scripts[8])
+        page = str(scripts[9])
     except Exception, e:
         log('ERROR', str(e))
         return []

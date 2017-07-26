@@ -150,14 +150,15 @@ def parseHistoricalPrice(html, symbol):
         log('ERROR', str(e))
         return []
 
-    # Check that we have 10 scripts
-    if len(scripts) < 10:
+    # Check that we have 13 scripts
+    if len(scripts) < 13:
         log('ERROR', 'Unexpected situation: require 10 scripts!')
         return []
 
-    # It is generally the 10th script
+    # It is generally the 13th script
     try:
-        page = str(scripts[9])
+        page = str(scripts[12])
+        #print str(page)
     except Exception, e:
         log('ERROR', str(e))
         return []

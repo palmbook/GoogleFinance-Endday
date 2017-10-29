@@ -1,6 +1,10 @@
 README
 ========================================================================
 
+--WARNING--
+Google Finance plans to deprecate many parts of its website. Therefore,
+this script may not work anymore in the future.
+
 While you can download CSV files from Google Finance for major markets, 
 the same cannot be said for other developing markets. In those cases, you
 are allowed to view historical prices, but the option to download CSV
